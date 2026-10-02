@@ -1,0 +1,5 @@
+RESULT kernel=scalar_csr pattern=uniform n=128 nnz=8192 sparsity=0.5000 cycles=120000 instret=120000 vec_iters=0 avg_vl=0.00 gathers=0 maxrelerr=0.00e+00 PASS
+RESULT kernel=dense_rvv pattern=uniform n=128 nnz=8192 sparsity=0.5000 cycles=9000 instret=9000 vec_iters=512 avg_vl=8.00 gathers=0 maxrelerr=1.0e-06 PASS
+RESULT kernel=csr_rvv pattern=uniform n=128 nnz=8192 sparsity=0.5000 cycles=16000 instret=16000 vec_iters=1100 avg_vl=7.00 gathers=1100 maxrelerr=1.0e-06 PASS
+RESULT kernel=dense_rvv pattern=uniform n=128 nnz=1638 sparsity=0.9000 cycles=9000 instret=9000 vec_iters=512 avg_vl=8.00 gathers=0 maxrelerr=1.0e-06 PASS
+RESULT kernel=csr_rvv pattern=uniform n=128 nnz=1638 sparsity=0.9000 cycles=5000 instret=5000 vec_iters=400 avg_vl=3.00 gathers=400 maxrelerr=1.0e-06 PASS
