@@ -10,6 +10,7 @@ Baseline RVV study: dense GEMV vs CSR SpMV vs scalar CSR, across sparsity levels
 - `scripts/setup_tools.sh` builds dtc + Spike + pk into `/opt/riscv` (pinned commits)
 - `docs/MEASUREMENT_NOTES.md`  what the numbers mean and what they do not mean
 - `docs/`          report skeleton, PPT skeleton, test plan, reading list, schedule (templates, YOU fill in)
+- `RESULTS.md`     execution time (instruction counts) and performance of the baseline RVV kernels
 - `results/vlen{128,256,512}/` Spike logs, tables, plots
 - `results_friend_original/`   first mid-eval run, kept for comparison (see MEASUREMENT_NOTES.md, do not report)
 - `examples/sample_format_only.txt`  FAKE numbers, only to show the log format. Never report them.
