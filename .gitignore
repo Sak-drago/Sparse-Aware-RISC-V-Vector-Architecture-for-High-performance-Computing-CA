@@ -2,3 +2,10 @@ bin/
 data/
 notes/
 __pycache__/
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.zip
